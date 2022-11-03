@@ -1,0 +1,41 @@
+#first {
+
+    background-color: aquamarine;
+
+    width: 300px;
+
+    margin-right: 20px;
+
+    padding: 0px;
+
+    display: inline;
+
+}
+
+#second {
+
+    background-color: burlywood;
+
+    width: 400px;
+
+    margin-right: 20px;
+
+    padding: 0px;
+    
+    display: inline;
+}
+
+#third {
+
+    background-color: darkseagreen;
+
+    width: 200px;
+
+    margin-right: 20px;
+
+    padding: 0px;
+
+    display: inline;
+
+    
+}

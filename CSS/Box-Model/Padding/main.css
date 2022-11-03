@@ -1,0 +1,13 @@
+p {
+    background-color: blanchedalmond;
+}
+
+#one, #three {
+
+    padding: 50px;
+}
+
+#two {
+
+    padding-top: 50px;
+}

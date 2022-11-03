@@ -1,0 +1,27 @@
+#first {
+    
+    background-color: coral;
+
+    width: 300px;
+
+    margin: 50px;
+
+}
+
+#second {
+
+    background-color: cornflowerblue;
+
+    width: 400px;
+
+    margin: 20px auto 20px auto;
+
+}
+
+#third {
+
+    background-color: darkgrey;
+    width: 200px;
+
+    margin-left: 100px;
+}

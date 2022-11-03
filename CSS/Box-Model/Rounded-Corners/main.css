@@ -1,0 +1,76 @@
+@font-face {
+    
+    font-family:"WhiteDream" ;
+    
+    src: url("./WhiteDreamPersonalUseOnlyRegular-L37Rn.otf");
+
+}
+
+body {
+
+    font-family: WhiteDream;
+
+    background-color: black;
+
+    color: darkgray;
+
+}
+
+p {
+
+    width: 1000px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    background-color: rgb(163, 91, 151);
+    
+    font-size: 2em;
+
+    box-shadow: 15px 20px 30px 40px rgb(126, 126, 145);
+
+    padding: 30px 50px;
+
+    text-align: center;
+
+}
+
+#first {
+
+   margin-top: 100px;
+
+   margin-bottom: 150px;
+
+   border-radius: 30px ; 
+
+}
+
+#second {
+
+    margin-bottom: 150px;
+
+    border-radius: 0px 70px;
+}
+
+#third {
+
+    margin-bottom: 150px;
+
+    border-radius: 100px 0px;
+
+}
+
+#fourth {
+
+    margin-bottom: 150px;
+
+    border-radius: 150px 70px;
+}
+
+#fifth {
+
+    margin-bottom: 150px;
+
+    border-radius: 100%;
+}

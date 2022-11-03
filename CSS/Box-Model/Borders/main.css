@@ -1,0 +1,19 @@
+p {
+    background-color: yellow;
+
+    border-width: 5px;
+}
+
+#first, #third {
+
+    border-color: red;
+
+    border-style: dashed;
+}
+
+#second {
+
+    border-color: green;
+
+    border-style: solid;
+}

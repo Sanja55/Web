@@ -1,0 +1,33 @@
+#first-paragraph {
+
+    background-color: yellow;
+    width: 400px;
+    height: 500px;
+}
+
+#second-paragraph {
+
+    background-color: red;
+    width: 600px;
+    height: 300px;
+}
+
+#third-paragraph {
+
+    background-color: antiquewhite;
+
+    max-width: 300px;
+
+    height: 400px;
+
+    overflow: hidden;
+}
+
+#fourth-paragraph {
+
+    background-color: burlywood;
+
+    max-height: 200px;
+
+    height: 100px;
+}

@@ -1,0 +1,45 @@
+body {
+
+    background-color: black;
+}
+
+@font-face {
+    font-family: "Alice_in_Wonderland_3";
+    src: url('./Alice_in_Wonderland_3.ttf');
+    
+    }
+
+h1 {
+
+    width: 960px;
+
+    text-align: center;
+
+    padding-top: 50px;
+
+    padding-bottom: 50px;
+
+    margin-top: 50px;
+    
+    margin-bottom: 50px;
+    
+    background-color: rgb(87, 243, 14);
+    
+    color: crimson;
+    
+    margin-left: auto;
+
+    margin-right: auto;
+
+    margin-top: 200px;
+    
+    font-family: Alice_in_Wonderland_3;
+    
+    font-size: 5em;
+    
+    box-shadow: 40px 55px 80px 90px rgb(43, 43, 224);
+    
+    border-radius: 30px 50px;
+    }
+
+   

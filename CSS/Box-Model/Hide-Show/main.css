@@ -1,0 +1,20 @@
+#first {
+
+    background-color: wheat;
+
+
+}
+
+#second {
+
+    background-color: rgb(86, 146, 146);
+
+    display: none;
+}
+
+#third {
+
+    background-color: gray;
+
+    visibility: hidden;
+}
