@@ -1,0 +1,35 @@
+#first {
+
+    list-style-type: circle;
+
+}
+
+#second {
+
+    list-style-type: square;
+
+}
+
+#third {
+
+    list-style-type: upper-alpha;
+}
+
+#fourth {
+
+    list-style-type: lower-roman;
+}
+
+#additional-list-one {
+
+    width: 200px;
+
+    list-style-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Location_dot_cyan.svg/64px-Location_dot_cyan.svg.png") ;
+}
+
+#additional-list-two {
+
+    width: 200px;
+
+    list-style-position: inside;
+}
