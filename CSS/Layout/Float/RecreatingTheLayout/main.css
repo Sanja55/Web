@@ -1,0 +1,242 @@
+
+
+body {
+
+    background-color: rgb(241, 155, 145);
+}
+
+.navigation-bar {
+    height: 80px;
+
+    width: 960px;
+
+    margin: auto;
+
+    margin-top: 50px;
+
+    background-color: rgb(170, 59, 59);
+
+    padding: 10px;
+}
+
+.navigation-bar ul {
+
+    list-style-type: none;
+    
+}
+
+ul {
+
+    position: relative;
+
+    left: 430px;
+}
+
+.navigation-bar li {
+
+    float: left;
+
+    width: 120px;
+
+}
+
+
+.navigation-bar a {
+
+    display: block;
+
+    text-decoration: none;
+
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: bisque;
+
+    font-size: 2em;
+
+}
+
+.images {
+
+    background-color: aqua;
+
+    width: 960px;
+
+    margin: auto;
+
+    
+}
+
+.images img {
+
+    float: right;
+
+    width: 480px;
+}
+
+.divs-links-paragraphs {
+
+    width: 960px;
+
+    margin: auto;
+
+    border: 1px solid gray;
+
+    
+}
+
+.divs-links-paragraphs .first-div {
+
+    width: 300px;
+
+    height: 200px;
+
+    background-color: rgb(170, 57, 57);
+
+    float: left;
+}
+
+.divs-links-paragraphs .second-div {
+
+    width: 300px;
+
+    height: 200px;
+
+    background-color: rgb(29, 32, 32);
+
+    float: left;
+}
+
+.divs-links-paragraphs .third-div {
+
+    box-sizing: border-box;
+
+    width: 300px;
+
+    /*height: 280px;*/
+
+    background-color: darkgoldenrod;
+
+    padding: 30px;
+
+    font-size: 1.2em;
+
+    float: right;
+    
+    
+}
+
+.divs-links-paragraphs .third-div a {
+
+    text-decoration: none;
+
+    color: rgb(85, 79, 79);
+
+    display: block;
+    
+}
+
+
+
+.fourth-div {
+
+    width: 300px;
+
+    height: 200px;
+
+    background-color: rgb(201, 201, 45);
+
+    float: left;
+
+    clear: both;
+}
+
+.fifth-div {
+
+    width: 300px;
+
+    height: 200px;
+
+    background-color: rgb(56, 204, 155);
+
+    float: left;
+}
+
+.sixth-div {
+    width: 300px;
+
+    height: 200px;
+
+    background-color: rgb(143, 59, 59);
+
+    float: left;
+}
+
+.seventh-div {
+
+    width: 300px;
+
+    height: 200px;
+
+    background-color: rgb(39, 38, 41);
+
+    float: left;
+}
+
+.eight-div {
+
+    width: 300px;
+
+    height: 200px;
+
+    background-color: rgb(243, 243, 59);
+    float: left;
+}
+
+.ninth-div {
+
+    width: 300px;
+
+    height: 200px;
+
+    background-color: rgb(56, 204, 155);
+    float: left;
+}
+
+p {
+    background-color: rgb(221, 217, 159);
+    
+    width: 300px;
+
+    height: 200px;
+
+    float: left;
+
+    overflow: auto;
+
+    clear: right;
+
+}
+
+/*.footer {
+
+    width: 80%;
+    
+    height: 80px;
+
+    margin: auto;
+
+    background-color: rgb(19, 19, 22);
+
+    color: bisque;
+
+    font-size: 2em;
+
+    position: relative;
+
+    bottom: auto;
+
+}
+
+
