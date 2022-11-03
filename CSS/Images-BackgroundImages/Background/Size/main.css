@@ -1,0 +1,16 @@
+body {
+
+    background-image: url(seamless2.jpg);
+
+    background-size: cover;
+
+    color: rgb(177, 229, 238);
+
+    font-size: 1.4em;
+
+    text-align: center;
+    
+    margin: 100px 200px;
+
+    line-height: 1.5;
+}

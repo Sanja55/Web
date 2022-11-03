@@ -1,0 +1,35 @@
+body {
+
+    background-color: rgb(158, 121, 121);
+}
+
+
+img {
+
+    display: block;
+}
+
+#first-image {
+
+    height: 200px;
+
+    float: right;
+
+}
+
+#second-image {
+
+    width: 200px;
+
+    margin: auto;
+
+}
+
+#third-image {
+
+    width: 200px;
+
+    height: 200px;
+
+    float: left;
+}
