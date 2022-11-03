@@ -1,0 +1,14 @@
+#text-color {
+
+    background-color: darkturquoise;
+}
+
+#rgb-color {
+
+    background-color: rgb(0, 206, 209);
+}
+
+#hex-color {
+
+    background-color: #00ced1;
+}
