@@ -1,0 +1,837 @@
+* {
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    
+    font-family: "Roboto-Regular";
+    
+    src: url(../fonts/Roboto-Regular.ttf);
+
+}
+
+@font-face {
+    
+    font-family: "Roboto Bold";
+    
+    src: url(./fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    
+    font-family: "Roboto-Medium";
+    
+    src: url(./fonts/Roboto-Medium.ttf);
+}
+body {
+
+    font-family: "Roboto-Regular";
+
+    font-size: 16px;
+
+}
+
+header {
+    
+    background-image: url(./images/banner3.jpg);
+    
+    height: 100vh;
+
+    background-position: center center;
+    
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+    
+    background-size: cover;
+    
+    background-color: aquamarine;
+    
+    padding: 0 15px;
+    
+    position: relative;
+  
+}
+
+nav {
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    
+    align-items: center;
+    
+    padding: 30px 0;
+
+    font-size: 1.2em;
+  
+}
+
+.build-estate-logo {
+
+    text-decoration: none;
+    
+    color: beige;
+    
+    font-size: 1.5em;
+    
+    font-family: "Roboto-Regular" ;
+}
+  
+.build-estate-logo span {
+    
+    color: orange;
+    
+    border: 4px solid beige;
+
+    border-right: none;
+
+    padding-left: 10px;
+  
+}
+
+nav ul {
+
+    display: flex;
+
+    
+}
+
+nav ul li {
+
+    list-style-type: none;
+
+    margin-right: 30px;
+
+}
+
+nav ul li a {
+
+    color: beige;
+
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    /*background-color: grey;*/
+
+    box-shadow: 0 12px 16px 0 rgba(202, 230, 47, 0.24), 0 17px 50px 0 rgba(241, 135, 35, 0.19);
+    
+    cursor: pointer;
+
+}
+
+.slogan {
+
+    width: 100%;
+    
+    text-align: center;
+    
+    position: relative;
+
+    top: 35%;
+
+    padding-right: 50px;
+
+  }
+
+  .slogan h1 {
+    
+    text-transform: uppercase;
+    
+    color: beige;
+    
+    font-size: 4.5rem;
+    
+    padding-right: 20px;
+
+    font-weight: 550;
+
+  }
+
+  .button {
+
+    background-color: dodgerblue;
+
+    height: 40px;
+
+    width: 130px;
+
+    border-radius: 20px;
+
+    margin-top: 20px;
+
+    text-align: center;
+
+    color: beige;
+
+    border: none;
+
+
+
+}
+
+.button:hover {
+
+    background-color: rgb(221, 141, 141);
+
+    
+}
+
+.main-container {
+
+    margin-top: 60px;
+
+}
+
+.heading1 {
+    
+    font-size: 2em;
+    
+    margin: 30px auto;
+    
+    text-align: center;
+    
+    position: relative;
+    
+    padding: 20px;
+    
+    max-width: 500px;
+    
+    width: 100%;
+  }
+  
+  .heading1 h2 {
+    
+    margin-bottom: 10px;
+  
+}
+
+.border {
+    
+    width: 100%;
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: center;
+}
+
+.line {
+    
+    height: 2px;
+    
+    width: 150px;
+    
+    border-top: 3px solid black;
+}
+
+.square {
+    
+    height: 25px;
+    
+    width: 25px;
+    
+    border: 3px solid black;
+    
+    transform: rotate(50deg);
+    
+    margin: 0 10px;
+
+}
+
+.content {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    align-items: flex-start;
+
+    /*flex-basis: 0;*/
+
+    gap: 10px;
+
+    line-height: 2;
+
+    min-height: fit-content;
+
+}
+
+.content h3 {
+
+    font-size: 1.5em;
+
+    color: rgb(74, 131, 216);
+
+    text-align: center;
+
+    position: relative;
+
+    margin-bottom: 2em;
+
+}
+
+.build-estate, .dream-house {
+
+    padding-left: 1em;
+
+    padding-right: 1.8em;
+
+    width: 25%;
+
+    font-size: 1.2em;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+.house-image {
+
+    background-image: url(./images/about.jpg);
+
+    background-repeat: no-repeat;
+
+    background-position: center center;
+
+    background-size: cover;
+
+    height: 65vh;
+    
+    width: 31%;
+
+}
+
+.build-estate p, .dream-house p {
+
+    margin-bottom: 3em;
+
+    padding-left: 1.7em;
+
+}
+
+.build-estate ul, .dream-house ul {
+
+    padding-left: 3em;
+
+    list-style-image: url(./images/arrow_bullet.png);
+
+    color: dimgrey;
+}
+
+.what-people-say {
+
+    width: 100%;
+
+    min-height: fit-content;
+
+    margin-top: 12vh;
+
+}
+
+/*.people {
+
+    margin-top: 30px;
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+}
+
+.williamson, .jennifer-lopez, .selena-gomez {
+
+    width: 30%;
+
+    background-color: rgb(139, 178, 250);
+
+    color: beige;
+
+    padding-left: 50px;
+
+    padding-right: 60px;
+
+    padding-bottom: 30px;
+
+    margin-top: 30px;
+
+    line-height: 1.5;
+
+}
+
+
+.what-people-say img {
+
+    margin-top: 70px;
+
+    width: 30%;
+
+    border-radius: 50%;
+
+    border: 3px solid rgb(245, 240, 240);
+
+    padding: 3px;
+
+}*/
+
+.people {
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 2.5em;
+    
+}
+
+.williamson, .jennifer-lopez, .selena-gomez {
+    
+    height: 37vh;
+
+    width: 30%;
+
+    background-color: rgb(116, 166, 240);
+
+    color: beige;
+
+    padding-left: 3em;
+
+    padding-right: 3.5em;
+
+    padding-bottom: 1em;
+
+    line-height: 1.5;
+   
+    position: relative;
+
+}
+
+.people img {
+
+    display: block;
+
+    margin-top: 4em;
+
+    width: 32%;
+
+    border-radius: 50%;
+
+    border: 0.2em solid rgb(245, 240, 240);
+
+    padding: 0.3em;
+
+}
+
+.rating {
+
+    position: absolute;
+
+    top: 6em;
+
+    left: 45%;
+}
+
+    
+
+h3 {
+
+    color: black;
+
+}
+
+.people p {
+
+    position: absolute;
+
+    top: 25vh;
+}
+
+.get-in-touch-with-us {
+
+    margin-top: 120px;
+
+   
+
+}
+
+.contact {
+
+    height: 30vh;
+    
+    color: beige;
+    
+    font-size: 1.5 em;
+
+    line-height: 2em;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: flex-start;
+
+}
+
+.contact h3 {
+
+    color: beige;
+    
+    font-size: 1.7em;
+    
+    font-weight: 400;
+}
+
+.contact-us {
+
+    background-color: rgb(21, 219, 199);
+
+    width: 25%;
+}
+
+.connect-with-us {
+
+    background-color: hotpink;
+
+    width: 25%;
+}
+
+.address {
+
+    background-color: rgb(50, 98, 230);
+
+    width: 25%;
+}
+
+.contact-us, .connect-with-us, .address {
+
+    padding-top: 4em;
+
+    text-align: center;
+}
+
+.mobile-and-mail {
+
+    margin-top: 3em;
+
+    font-size: 0.7em;
+
+    display: grid;
+
+    grid-template-rows: auto;
+
+    gap: 1em;
+
+
+}
+
+.social-networks {
+
+    margin-top: 3em;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    align-content: center;
+
+}
+
+.location {
+
+    display: block;
+
+    margin-top: 1.5em;
+
+    font-size: 1.5em;
+
+    padding-left: 1em;
+
+    padding-right: 1em;
+}
+
+.house-img {
+
+    width: 25%;
+
+    background-color: skyblue;
+    
+    background-image: url(./images/house.png);
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+.mail {
+
+    margin-top: 80px;
+}
+
+form {
+
+    margin-top: 0.5em;
+
+    width: 80%;
+
+    margin: 0 auto;
+    
+
+    }
+
+.email-form {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    
+
+}
+
+.name, .email, .telephone {
+
+    border: 2px solid grey;
+
+    width: 32%;
+
+    height: 5em;
+
+    padding-left: 1em;
+
+    padding-top: 0.5em;
+
+}
+
+.message {
+
+    width: 100%;
+
+    height: 35vh;
+
+    margin-top: 2.5em;
+
+    border: 2px solid grey;
+
+}
+
+.mail-submit {
+
+    margin-top: 2em;
+
+    margin-bottom: 1em;
+
+    width: 10%;
+
+    height: 3.7em;
+
+    background-color: rgb(230, 169, 18);
+    
+    color: beige;
+
+    border: none;
+
+    border-radius: 1.5em;
+
+    font-family: "Roboto-Medium";
+
+}
+
+.mail-submit:hover {
+
+    background-color: cadetblue;
+}
+
+footer {
+
+    background-color: rgb(36, 35, 35);
+    
+    color: beige;
+    
+    height: 20vh;
+    
+    margin-top: 20px;
+    
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: center;
+    
+    flex-direction: column;
+  
+}
+  
+footer ul {
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+    align-items: center;
+    
+    justify-content: center;
+  
+}
+
+footer ul li {
+
+    list-style-type: none;
+    
+    margin: 0 20px 20px 0;
+  
+}
+
+footer ul li a {
+
+    text-decoration: none;
+
+    color: beige;
+}
+  
+footer ul li:hover a {
+    
+    color: crimson;
+  
+}
+ 
+footer p a {
+
+    color: beige;
+
+    text-decoration: none;
+}
+
+footer p a:hover {
+
+    color: crimson;
+}
+
+@media (max-width: 780px) {
+    
+    header {
+      
+        height: 70vh;
+    }
+
+    .slogan h1 {
+      
+        font-size: 2.5rem;
+    
+    }
+    
+    .content {
+
+        width: 90%;
+
+        justify-content: flex-start;
+
+        margin-left: 3em;
+
+        margin-right: auto;
+
+    
+    }
+
+    .build-estate, .house-image, .dream-house {
+
+        justify-content: space-evenly;
+
+        font-size: 0.8em;
+
+        width: 45%;
+
+        height: 40vh
+
+    }
+
+    .dream-house {
+
+        flex-grow: 1;
+    }
+
+    
+    .people {
+        
+        width: 90%;
+
+        justify-content: flex-start;
+
+        flex-wrap: wrap;
+
+        gap: 1em;
+
+        margin-left: 3em;
+
+        margin-right: auto;
+
+    }
+
+    .williamson, .jennifer-lopez, .selena-gomez {
+
+        padding: 20px;
+
+        width: 48.5%;
+
+        height: 38vh;
+
+    }
+
+    .people p {
+
+        margin-top: 2px;
+
+        margin-right: 2em;
+
+        margin-left: none;
+        
+        font-size: 0.9em;
+
+        padding-left: none;
+
+    }
+
+    .people img {
+
+        width: 45%;
+
+    }
+
+    .contact {
+
+        width: 100%;
+
+        height: 50vh;
+        
+    }
+
+    .contact-us, .connect-with-us, .address, .house-img {
+
+        width: 50%;
+
+        font-size: 0.8em;
+    }
+
+
+
+
+
+}
