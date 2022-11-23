@@ -45,8 +45,6 @@ header {
     background-position: center center;
     
     background-repeat: no-repeat;
-
-    background-attachment: fixed;
     
     background-size: cover;
     
@@ -54,15 +52,12 @@ header {
     
     padding: 0 15px;
     
-    position: relative;
   
 }
 
 nav {
     
     display: flex;
-    
-    flex-wrap: wrap;
     
     justify-content: space-between;
     
@@ -297,17 +292,19 @@ a:hover {
     display: flex;
 
     flex-direction: column;
+
+    flex-wrap: wrap;
 }
 
 .house-image {
 
     background-image: url(./images/about.jpg);
 
+    background-position: center;
+
     background-repeat: no-repeat;
 
-    background-position: center center;
-
-    background-size: cover;
+    background-size: contain;
 
     height: 65vh;
     
@@ -335,8 +332,6 @@ a:hover {
 .what-people-say {
 
     width: 100%;
-
-    min-height: fit-content;
 
     margin-top: 12vh;
 
@@ -411,23 +406,12 @@ a:hover {
 
     color: beige;
 
-    padding-left: 3em;
-
-    padding-right: 3.5em;
-
-    padding-bottom: 1em;
-
-    line-height: 1.5;
+    padding: 20px;
    
-    position: relative;
 
 }
 
 .people img {
-
-    display: block;
-
-    margin-top: 4em;
 
     width: 32%;
 
@@ -438,14 +422,19 @@ a:hover {
     padding: 0.3em;
 
 }
+.title {
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+}
 
 .rating {
 
-    position: absolute;
+    margin-left: 20px;
 
-    top: 6em;
-
-    left: 45%;
 }
 
     
@@ -456,11 +445,9 @@ h3 {
 
 }
 
-.people p {
+.williamson p {
 
-    position: absolute;
-
-    top: 25vh;
+    margin-top: 20px;
 }
 
 .get-in-touch-with-us {
@@ -578,7 +565,7 @@ h3 {
 
     background-position: center;
 
-    background-size: cover;
+    background-size: contain;
 
 }
 .mail {
@@ -751,6 +738,25 @@ footer p a:hover {
     
     }
 
+    .content h3 {
+
+        text-align: left;
+
+        margin-bottom: 0;
+    }
+
+    .content p {
+
+        padding-left: 0;
+
+        margin-bottom: 0;
+    }
+
+    .build-estate ul, .dream-house ul {
+
+        padding-left: 0;
+    }
+
     .build-estate, .house-image, .dream-house {
 
         justify-content: space-evenly;
@@ -759,7 +765,7 @@ footer p a:hover {
 
         width: 45%;
 
-        height: 40vh
+        height: 40vh;
 
     }
 
@@ -779,7 +785,7 @@ footer p a:hover {
 
         gap: 1em;
 
-        margin-left: 3em;
+        margin-left: auto;
 
         margin-right: auto;
 
@@ -791,7 +797,7 @@ footer p a:hover {
 
         width: 48.5%;
 
-        height: 38vh;
+        height: 32vh;
 
     }
 
@@ -830,8 +836,306 @@ footer p a:hover {
         font-size: 0.8em;
     }
 
+    .form {
 
+        width: 85%;
+    }
 
+    .name, .telephone, .email {
 
+        height: 45px;
+
+        padding: 10px;
+    }
+
+    .message {
+
+        margin-top: 1.5rem;
+
+        height: 25vh;
+
+        font-family: "Roboto-Regular";
+
+        padding-top: 10px;
+
+        padding-left: 10px;
+    }
+
+    .mail-submit {
+
+        width: 130px;
+
+        margin-top: 1em;
+
+        height: 40px;
+    }
 
 }
+
+
+
+@media (max-width: 500px) {
+
+    header {
+
+        background: none;
+
+        width: 100%;
+
+        width: fit-content;
+
+    }    
+
+    nav {
+
+        flex-direction: column;
+
+
+
+    }
+
+    nav ul {
+
+
+        width: 100%;
+
+        background-color: #7FC2F7;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        align-items: center;
+
+        margin-top: 20px;
+
+        padding: 10px;
+    }
+
+    nav ul li {
+
+        padding-top: 20px;
+    }
+
+    .build-estate-logo {
+
+        color: #696969;
+    }
+
+    .build-estate-logo span {
+
+        border: 4px solid #696969;
+
+        border-right: none;
+    }
+
+    .slogan {
+
+        top: 0;
+
+        height: 40vh;
+
+        background-image: url(./images/banner3.jpg);
+
+        background-size: cover;
+
+        background-repeat: no-repeat;
+
+        background-position: inherit;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        flex-direction: column;
+
+        padding-right: 0;
+    }
+
+    .slogan h1 {
+
+        font-size: 1.7rem;
+
+    }
+
+    .heading1 h2{
+
+        font-size: 2rem;
+
+    }
+
+    .content {
+
+        width: 85%;
+
+        margin-left: auto;
+
+        margin-right: auto;
+
+        flex-direction: column;
+    }
+
+    .house-image {
+
+        width: 100%;
+
+        background-size: cover;
+
+ 
+    }
+
+    .build-estate, .dream-house {
+
+        flex-direction: row;
+
+        justify-content: left;
+    }
+
+    .build-estate, .house-image, .dream-house {
+
+        width: 100%;
+    }
+        
+       
+    
+    
+
+    .content h3 {
+
+        margin-bottom: 0;
+    }
+
+    .build-estate h3 {
+
+        padding: 0;
+
+        margin: 0;
+
+    }
+
+    .content .build-estate p {
+
+        margin: 0;
+
+        padding: 0;
+
+
+    }
+
+    .people {
+
+        margin: 0 auto;
+    }
+
+
+    .williamson {
+
+        width: 100%;
+
+        margin: 0 auto;
+
+        height: 210px;
+
+    }
+
+    .title img {
+
+        width: 25%;
+    }
+
+    .contact {
+
+        width: 100%;
+
+        height: 46vh;
+    
+    }
+
+    .contact-us, .connect-with-us, .address, .house-img {
+
+        width: 50%;
+
+        height: 23vh;
+    }
+
+    .location {
+
+        font-size: 1.3em;
+    }
+
+    .email-form {
+
+        flex-wrap: wrap;
+
+        flex-direction: column;
+    
+    }
+
+    .name, .email, .telephone {
+
+        width: 100%;
+
+        height: 35px;
+
+        margin-bottom: 15px;
+
+        padding: 15px;
+
+        padding-right: none;
+
+        border: 1px solid #5F5F5F;
+
+    }
+
+    .get-in-touch-with-us {
+
+        margin-top: 80px;
+    }
+
+    .contact-us
+
+    .message {
+
+        width: 100%;
+
+        height: 150px;
+
+        margin-top: 0;
+
+        border: 1px solid #5F5F5F;
+
+        font-family: "Roboto-Regular";
+
+        padding-top: 10px;
+
+        padding-left: 10px;
+
+        
+    }
+
+    .mail-submit {
+
+        margin-top: 10px;
+
+        height: 30px;
+
+        width: 80px;
+    }
+
+    footer {
+
+        width: 100%;
+
+    }
+
+    footer ul li a, p {
+
+        font-size: small;
+    }
+    
+}
+
+
+
