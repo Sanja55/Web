@@ -1,0 +1,153 @@
+
+* {
+
+  --color-greenish: #18bc9c;
+
+  --color-blueish: #2c3e50;
+
+  --color-input-text: #495057;
+
+}
+
+@font-face {
+  
+  font-family: "Lato-Regular";
+  
+  src: url(../fonts/Lato-Regular.ttf);
+
+}
+
+
+
+body {
+  
+  font-family: "Lato-Regular";
+  
+  font-size: 16px;
+  
+  line-height: 1.5;
+}
+
+
+
+header, #about {
+  
+  background-color: var(--color-greenish);
+}
+
+header, .bg-dark, #about, #footer {
+  
+  color: #fff;
+}
+
+#navigation-bar {
+
+  background-color: var(--color-blueish);
+}
+
+#footer {
+  
+  background-color: var(--color-blueish);
+
+}
+
+#about .row, #contact .row {
+  
+  width: 75%;
+}
+
+#toggler {
+
+  background-color: var(--color-blueish);
+}
+
+
+
+
+.break-lines {
+  
+  width: 100%;
+  
+  display: flex;
+  
+  justify-content: center;
+  
+  align-items: center;
+}
+
+.break-line {
+  
+  height: 3px;
+  
+  width: 6rem;
+  
+  margin: 0 0.5rem;
+  
+  border-top: 3px solid #000;
+}
+.break-line-2 {
+  
+  height: 3px;
+  
+  width: 6rem;
+  
+  margin: 0 0.5rem;
+  
+  border-top: 3px solid #fff;
+
+}
+
+.break-lines i {
+  
+  font-size: 1.5rem;
+
+}
+
+.form-control {
+  
+  border: none;
+  
+  border-radius: 0;
+  
+  border-bottom: 1px solid #adb5bd;
+  
+  color: #000;
+
+}
+
+#send-button {
+
+  background-color: var(--color-greenish);
+
+  border-radius: 10px;
+}
+
+@media (min-width: 992px) {
+
+  .container-xl button {
+
+    visibility: hidden;
+
+
+  }
+
+}
+
+
+@media (max-width: 576px) {
+  
+  .container-xl #toggler {
+    
+    background-color: var(--color-greenish);
+  
+  }
+  
+  #about .row, #contact .row {
+    
+    width: 100%;
+  
+  }
+
+}
+
+
