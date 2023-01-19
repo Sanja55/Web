@@ -1,7 +1,7 @@
 $(function () {
     
     var $listOfImages = ["./Images/winter1.jpg", "./Images/winter2.jpg", "./Images/winter3.jpg", 
-                        "./images/winter4.jpg", "./Images/winter5.jpg", "./Images/winter6.jpg"];
+                        "./Images/winter4.jpg", "./Images/winter5.jpg", "./Images/winter6.jpg"];
     
     var $gallery = $("<div class='gallery'></div>");
     $gallery.insertBefore("script");
@@ -27,8 +27,11 @@ $(function () {
     $gallery.find("img").each(function () {
         
         var width = $(this).width();
+        
         if (width < 200) {
             $(this).css("border", "5px solid #34ebc0")
+        } else {
+            return false;
         } 
     }); 
 
